@@ -1,9 +1,9 @@
 pattern=(n)=>{
-    for(let i=0;i<n;i++){
-        for(let j=0;j<n;j++){
-            process.stdout.write("*")
+    for(let i=1;i<=n;i++){
+        for(let j=1;j<=n;j++){
+            console.log("*")
         }
         console.log( )
     }
 }
-pattern(6)
+pattern(5)
